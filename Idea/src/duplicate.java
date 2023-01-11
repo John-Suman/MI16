@@ -32,6 +32,8 @@ public class duplicate {
             if(fr[i] != visited)  
                 fr[i] = count;  
         }  
+        
+        //ewfgdjckjsgsuifsuyvcfdjg,ytdbvdmfh,k
         System.out.println(" Element : Frequency");  
         System.out.println("---------------------------------------");  
         for(int i = 0; i < fr.length; i++){  
