@@ -13,9 +13,6 @@ public class duplicate {
         {
         	arr[i]=sc.nextInt();
         }
-	
-	
-        //Array fr will store frequencies of element  
         int [] fr = new int [n];  
         int visited = -1;  
         
