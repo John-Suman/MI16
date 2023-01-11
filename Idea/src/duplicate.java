@@ -33,7 +33,7 @@ public class duplicate {
                 fr[i] = count;  
         }  
         
-        //ewfgdjckjsgsuifsuyvcfdjg,ytdbvdmf
+        //ewfgdjckjsgsu
         System.out.println(" Element : Frequency");  
         System.out.println("---------------------------------------");  
         for(int i = 0; i < fr.length; i++){  
