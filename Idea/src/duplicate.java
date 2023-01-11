@@ -16,7 +16,7 @@ public class duplicate {
         int [] fr = new int [n];  
         int visited = -1;  
         
-        
+        //kdfhoisdofih
         for(int i = 0; i < n; i++){  
             if(fr[i]==visited)
             {
@@ -32,8 +32,6 @@ public class duplicate {
             if(fr[i] != visited)  
                 fr[i] = count;  
         }  
-  
-        //Displays the frequency of each element present in array  
         System.out.println(" Element : Frequency");  
         System.out.println("---------------------------------------");  
         for(int i = 0; i < fr.length; i++){  
