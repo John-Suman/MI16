@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class duplicate {
 
 	public static void main(String[] args) {
-        //Initialize array  
+ 
 		Scanner sc=new Scanner(System.in);
 		System.out.print("Enter length of array: ");
 		int n=sc.nextInt();
@@ -26,7 +26,6 @@ public class duplicate {
             for(int j = i+1; j <n; j++){  
                 if(arr[i] == arr[j]){  
                     count++;  
-                    //To avoid counting same element again  
                     fr[j] = visited;  
                 }  
             }  
