@@ -15,7 +15,7 @@ class B extends A{
 class C extends B{
 	void dis()
 	{
-		System.out.println(a);
+		System.out.println(a); 
 		System.out.println(b); 
 	}
 }
