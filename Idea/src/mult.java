@@ -16,7 +16,7 @@ class C extends B{
 	void dis()
 	{
 		System.out.println(a);
-		System.out.println(b);
+		System.out.println(b); 
 	}
 }
 public class mult {
