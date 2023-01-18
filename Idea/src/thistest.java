@@ -1,0 +1,21 @@
+class Student{  
+int rollno;  
+String name;  
+float fee;  
+Student(int no,String Name,float Fee){  
+rollno=no;  
+name=Name;  
+fee=Fee;  
+}  
+void display()
+{
+System.out.println(rollno+" "+name+" "+fee);
+}  
+}  
+class thistest{  
+public static void main(String args[]){  
+Student s1=new Student(111,"ankit",5000f);  
+Student s2=new Student(112,"sumit",6000f);  
+s1.display();  
+s2.display();  
+}}
